@@ -1,7 +1,7 @@
 # forge-alphanet
 
 Set of solidity utilities to ease deployment and usage of applications on
-[AlphaNet].
+[AlphaNet]. This is a fork to demonstrate the RIP7696 agility.
 
 ## EOF support
 
@@ -15,6 +15,14 @@ $ ./eof-solc --version
 It will pull the docker image on a first run and should print the version of the solc binary.
 
 After that, make sure that your forge version is up to data (run `foundryup` if needed), and then you should be able to use all usual forge commands —— all contracts will get compiled for EOF.
+
+## RIP7696
+
+Delegation using the RIP7696 with P256 or Ed25519.
+
+Work in Progress.
+
+
 
 ## BLS library
 
